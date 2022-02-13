@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43DB1232390B6FE004A9A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1222390B6FE004A9A64 /* AppDelegate.swift */; };
+		B43DB1252390B6FE004A9A64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1242390B6FE004A9A64 /* SceneDelegate.swift */; };
+		B43DB1272390B6FE004A9A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1262390B6FE004A9A64 /* ViewController.swift */; };
+		B43DB12A2390B6FE004A9A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DB1282390B6FE004A9A64 /* Main.storyboard */; };
+		B43DB12C2390B703004A9A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43DB12B2390B703004A9A64 /* Assets.xcassets */; };
+		B43DB12F2390B703004A9A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DB12D2390B703004A9A64 /* LaunchScreen.storyboard */; };
+		B43DB13A2390B703004A9A64 /* DienThoaiSmartphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1392390B703004A9A64 /* DienThoaiSmartphoneTests.swift */; };
+		B43DB1462390B75A004A9A64 /* DienThoai.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1452390B75A004A9A64 /* DienThoai.swift */; };
+		B43DB1482390B8CB004A9A64 /* DienThoaiBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1472390B8CB004A9A64 /* DienThoaiBusiness.swift */; };
+		B43DB14A2390BE58004A9A64 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DB1492390BE58004A9A64 /* DataProvider.swift */; };
+		B480CC2527B8997500986FD9 /* GioHangDienThoaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480CC2427B8997500986FD9 /* GioHangDienThoaiViewController.swift */; };
+		B480CC2727B8A2D500986FD9 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480CC2627B8A2D500986FD9 /* CartTableViewCell.swift */; };
+		B480CC2927B8B91400986FD9 /* DienThoaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480CC2827B8B91400986FD9 /* DienThoaiTableViewCell.swift */; };
+		B480CC2B27B8C9B500986FD9 /* ChiTietDienThoaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480CC2A27B8C9B500986FD9 /* ChiTietDienThoaiViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43DB1362390B703004A9A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43DB1172390B6FE004A9A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43DB11E2390B6FE004A9A64;
+			remoteInfo = DienThoaiSmartphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43DB11F2390B6FE004A9A64 /* DienThoaiSmartphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DienThoaiSmartphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DB1222390B6FE004A9A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43DB1242390B6FE004A9A64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B43DB1262390B6FE004A9A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43DB1292390B6FE004A9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43DB12B2390B703004A9A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43DB12E2390B703004A9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43DB1302390B703004A9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43DB1352390B703004A9A64 /* DienThoaiSmartphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DienThoaiSmartphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DB1392390B703004A9A64 /* DienThoaiSmartphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienThoaiSmartphoneTests.swift; sourceTree = "<group>"; };
+		B43DB13B2390B703004A9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43DB1452390B75A004A9A64 /* DienThoai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienThoai.swift; sourceTree = "<group>"; };
+		B43DB1472390B8CB004A9A64 /* DienThoaiBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienThoaiBusiness.swift; sourceTree = "<group>"; };
+		B43DB1492390BE58004A9A64 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		B480CC2427B8997500986FD9 /* GioHangDienThoaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GioHangDienThoaiViewController.swift; sourceTree = "<group>"; };
+		B480CC2627B8A2D500986FD9 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		B480CC2827B8B91400986FD9 /* DienThoaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienThoaiTableViewCell.swift; sourceTree = "<group>"; };
+		B480CC2A27B8C9B500986FD9 /* ChiTietDienThoaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiTietDienThoaiViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43DB11C2390B6FE004A9A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43DB1322390B703004A9A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43DB1162390B6FE004A9A64 = {
+			isa = PBXGroup;
+			children = (
+				B43DB1212390B6FE004A9A64 /* DienThoaiSmartphone */,
+				B43DB1382390B703004A9A64 /* DienThoaiSmartphoneTests */,
+				B43DB1202390B6FE004A9A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43DB1202390B6FE004A9A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB11F2390B6FE004A9A64 /* DienThoaiSmartphone.app */,
+				B43DB1352390B703004A9A64 /* DienThoaiSmartphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43DB1212390B6FE004A9A64 /* DienThoaiSmartphone */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB14B2390BF23004A9A64 /* Controller */,
+				B43DB1442390B721004A9A64 /* Model */,
+				B43DB1222390B6FE004A9A64 /* AppDelegate.swift */,
+				B43DB1242390B6FE004A9A64 /* SceneDelegate.swift */,
+				B43DB1262390B6FE004A9A64 /* ViewController.swift */,
+				B43DB1282390B6FE004A9A64 /* Main.storyboard */,
+				B43DB12B2390B703004A9A64 /* Assets.xcassets */,
+				B43DB12D2390B703004A9A64 /* LaunchScreen.storyboard */,
+				B43DB1302390B703004A9A64 /* Info.plist */,
+			);
+			path = DienThoaiSmartphone;
+			sourceTree = "<group>";
+		};
+		B43DB1382390B703004A9A64 /* DienThoaiSmartphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB1392390B703004A9A64 /* DienThoaiSmartphoneTests.swift */,
+				B43DB13B2390B703004A9A64 /* Info.plist */,
+			);
+			path = DienThoaiSmartphoneTests;
+			sourceTree = "<group>";
+		};
+		B43DB1442390B721004A9A64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB1452390B75A004A9A64 /* DienThoai.swift */,
+				B43DB1472390B8CB004A9A64 /* DienThoaiBusiness.swift */,
+				B43DB1492390BE58004A9A64 /* DataProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B43DB14B2390BF23004A9A64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B480CC2427B8997500986FD9 /* GioHangDienThoaiViewController.swift */,
+				B480CC2627B8A2D500986FD9 /* CartTableViewCell.swift */,
+				B480CC2827B8B91400986FD9 /* DienThoaiTableViewCell.swift */,
+				B480CC2A27B8C9B500986FD9 /* ChiTietDienThoaiViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43DB11E2390B6FE004A9A64 /* DienThoaiSmartphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43DB13E2390B703004A9A64 /* Build configuration list for PBXNativeTarget "DienThoaiSmartphone" */;
+			buildPhases = (
+				B43DB11B2390B6FE004A9A64 /* Sources */,
+				B43DB11C2390B6FE004A9A64 /* Frameworks */,
+				B43DB11D2390B6FE004A9A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DienThoaiSmartphone;
+			productName = DienThoaiSmartphone;
+			productReference = B43DB11F2390B6FE004A9A64 /* DienThoaiSmartphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43DB1342390B703004A9A64 /* DienThoaiSmartphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43DB1412390B703004A9A64 /* Build configuration list for PBXNativeTarget "DienThoaiSmartphoneTests" */;
+			buildPhases = (
+				B43DB1312390B703004A9A64 /* Sources */,
+				B43DB1322390B703004A9A64 /* Frameworks */,
+				B43DB1332390B703004A9A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43DB1372390B703004A9A64 /* PBXTargetDependency */,
+			);
+			name = DienThoaiSmartphoneTests;
+			productName = DienThoaiSmartphoneTests;
+			productReference = B43DB1352390B703004A9A64 /* DienThoaiSmartphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43DB1172390B6FE004A9A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nguyễn Long";
+				TargetAttributes = {
+					B43DB11E2390B6FE004A9A64 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B43DB1342390B703004A9A64 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B43DB11E2390B6FE004A9A64;
+					};
+				};
+			};
+			buildConfigurationList = B43DB11A2390B6FE004A9A64 /* Build configuration list for PBXProject "DienThoaiSmartphone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43DB1162390B6FE004A9A64;
+			productRefGroup = B43DB1202390B6FE004A9A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43DB11E2390B6FE004A9A64 /* DienThoaiSmartphone */,
+				B43DB1342390B703004A9A64 /* DienThoaiSmartphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43DB11D2390B6FE004A9A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DB12F2390B703004A9A64 /* LaunchScreen.storyboard in Resources */,
+				B43DB12C2390B703004A9A64 /* Assets.xcassets in Resources */,
+				B43DB12A2390B6FE004A9A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43DB1332390B703004A9A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43DB11B2390B6FE004A9A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B480CC2527B8997500986FD9 /* GioHangDienThoaiViewController.swift in Sources */,
+				B480CC2B27B8C9B500986FD9 /* ChiTietDienThoaiViewController.swift in Sources */,
+				B43DB14A2390BE58004A9A64 /* DataProvider.swift in Sources */,
+				B43DB1272390B6FE004A9A64 /* ViewController.swift in Sources */,
+				B480CC2727B8A2D500986FD9 /* CartTableViewCell.swift in Sources */,
+				B43DB1232390B6FE004A9A64 /* AppDelegate.swift in Sources */,
+				B43DB1482390B8CB004A9A64 /* DienThoaiBusiness.swift in Sources */,
+				B43DB1252390B6FE004A9A64 /* SceneDelegate.swift in Sources */,
+				B480CC2927B8B91400986FD9 /* DienThoaiTableViewCell.swift in Sources */,
+				B43DB1462390B75A004A9A64 /* DienThoai.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43DB1312390B703004A9A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DB13A2390B703004A9A64 /* DienThoaiSmartphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43DB1372390B703004A9A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43DB11E2390B6FE004A9A64 /* DienThoaiSmartphone */;
+			targetProxy = B43DB1362390B703004A9A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43DB1282390B6FE004A9A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DB1292390B6FE004A9A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43DB12D2390B703004A9A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DB12E2390B703004A9A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43DB13C2390B703004A9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B43DB13D2390B703004A9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43DB13F2390B703004A9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DienThoaiSmartphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.nguyenlong.DienThoaiSmartphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43DB1402390B703004A9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DienThoaiSmartphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.nguyenlong.DienThoaiSmartphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B43DB1422390B703004A9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DienThoaiSmartphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.nguyenlong.DienThoaiSmartphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DienThoaiSmartphone.app/DienThoaiSmartphone";
+			};
+			name = Debug;
+		};
+		B43DB1432390B703004A9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DienThoaiSmartphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.nguyenlong.DienThoaiSmartphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DienThoaiSmartphone.app/DienThoaiSmartphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43DB11A2390B6FE004A9A64 /* Build configuration list for PBXProject "DienThoaiSmartphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DB13C2390B703004A9A64 /* Debug */,
+				B43DB13D2390B703004A9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43DB13E2390B703004A9A64 /* Build configuration list for PBXNativeTarget "DienThoaiSmartphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DB13F2390B703004A9A64 /* Debug */,
+				B43DB1402390B703004A9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43DB1412390B703004A9A64 /* Build configuration list for PBXNativeTarget "DienThoaiSmartphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DB1422390B703004A9A64 /* Debug */,
+				B43DB1432390B703004A9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43DB1172390B6FE004A9A64 /* Project object */;
+}
